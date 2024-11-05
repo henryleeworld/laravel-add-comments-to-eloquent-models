@@ -13,6 +13,11 @@ class Video extends Model implements Commentable
 
     protected $table = 'video';
 
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array<int, string>
+     */
     protected $fillable = [
         'source', 'code', 'title'
     ];

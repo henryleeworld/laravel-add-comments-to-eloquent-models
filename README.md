@@ -1,6 +1,6 @@
-# Laravel 8 為 Eloquent 模型加入評論
+# Laravel 11 為 Eloquent 模型加入評論
 
-引入 actuallymab 的 laravel-comment 套件為 Eloquent 模型加入評論，除了收集消費者的回饋意見外，也重視真實性和參考性，仔細觀察消費者的評價數據，更可以及時抓出不良品。
+引入 mll-lab 的 laravel-comment 套件為 Eloquent 模型加入評論，除了收集消費者的回饋意見外，也重視真實性和參考性，仔細觀察消費者的評價數據，更可以及時抓出不良品。
 
 ## 使用方式
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
@@ -26,5 +26,5 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/sK5aB9I.png)
+![](https://i.imgur.com/KhmuDoy.png)
 > 不表示意見不代表滿意，應該要鼓勵消費者表達心中的真實感受

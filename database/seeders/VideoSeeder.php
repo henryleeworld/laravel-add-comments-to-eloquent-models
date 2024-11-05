@@ -18,14 +18,14 @@ class VideoSeeder extends Seeder
             [
                 'id'             => 1,
                 'source'         => 'youtube',
-                'code'           => 'zvziUZQCd-I',
-                'title'          => 'iPhone 12中國銷量佳！華為出新機迎戰 躲禁令傳囤大量台積電晶片｜非凡財經新聞｜20201023',
+                'code'           => 'Idq5igOxQo4',
+                'title'          => __('Street Fighter 6 Character Guide | Terry'),
             ],
             [
                 'id'             => 2,
                 'source'         => 'youtube',
-                'code'           => 'A70caQprTO4',
-                'title'          => '顧客轉買低價NB 英特爾Q3營收年減4% 盤後股價大跌近1成｜非凡財經新聞｜20201023',
+                'code'           => '2jGJ78MqDY',
+                'title'          => __('"MARVEL vs. CAPCOM Fighting Collection: Arcade Classics" launch promotional video'),
             ],
         ];
 

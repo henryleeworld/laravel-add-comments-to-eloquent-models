@@ -11,11 +11,11 @@ class VideoController extends Controller
     {
         $user = User::first();
         $video = Video::first();
-        $user->comment($video, '追求時尚的流行風氣瀰漫全球應該是科技領先還是人類不務實呢？');
+        $user->comment($video, __('The pursuit of fashion has spread all over the world. Should it be due to the advancement of technology or the lack of pragmatism of human beings?'));
         foreach ($video->comments as $comment) {
-            echo '影片標題：' . $video->title . PHP_EOL;
-            echo '評論人：' . $user->name . PHP_EOL;
-            echo '評論：' . $comment->comment . PHP_EOL;
+            echo __('Video title: ') . $video->title . PHP_EOL;
+            echo __('Commenter: ') . $user->name . PHP_EOL;
+            echo __('Comment: ') . $comment->comment . PHP_EOL;
         }
     }
 }
