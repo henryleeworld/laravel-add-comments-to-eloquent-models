@@ -1,4 +1,4 @@
-# Laravel 11 為 Eloquent 模型加入評論
+# Laravel 12 為 Eloquent 模型加入評論
 
 引入 mll-lab 的 laravel-comment 套件為 Eloquent 模型加入評論，除了收集消費者的回饋意見外，也重視真實性和參考性，仔細觀察消費者的評價數據，更可以及時抓出不良品。
 
@@ -26,5 +26,5 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/KhmuDoy.png)
+![](https://i.imgur.com/lOVvUvA.png)
 > 不表示意見不代表滿意，應該要鼓勵消費者表達心中的真實感受

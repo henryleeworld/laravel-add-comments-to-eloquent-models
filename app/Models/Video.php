@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Video extends Model implements Commentable
 {
+    /** @use HasFactory<\Database\Factories\VideoFactory> */
     use HasComments, HasFactory;
 
     protected $table = 'video';
@@ -16,7 +17,7 @@ class Video extends Model implements Commentable
     /**
      * The attributes that are mass assignable.
      *
-     * @var array<int, string>
+     * @var list<string>
      */
     protected $fillable = [
         'source', 'code', 'title'

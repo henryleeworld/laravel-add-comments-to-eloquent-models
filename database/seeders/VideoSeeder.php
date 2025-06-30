@@ -8,24 +8,22 @@ use Illuminate\Database\Seeder;
 class VideoSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
-     *
-     * @return void
+     * Run the database seeders.
      */
-    public function run()
+    public function run(): void
     {
         $video = [
             [
                 'id'             => 1,
                 'source'         => 'youtube',
-                'code'           => 'Idq5igOxQo4',
-                'title'          => __('Street Fighter 6 Character Guide | Terry'),
+                'code'           => 'wXrKSQF-LhY',
+                'title'          => __('Street Fighter 6 Character Guide | Mai'),
             ],
             [
                 'id'             => 2,
                 'source'         => 'youtube',
-                'code'           => '2jGJ78MqDY',
-                'title'          => __('"MARVEL vs. CAPCOM Fighting Collection: Arcade Classics" launch promotional video'),
+                'code'           => 'revlOocmy4o',
+                'title'          => __('"Capcom Fighting Collection 2" Pre-Order Trailer'),
             ],
         ];
 
